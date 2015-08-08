@@ -20,15 +20,16 @@ This extension was inspired by the yii-user module and It provides a registratio
 	•	Extract the release file under protected of your project
 	•	Change your config main:
 
+	'import'=>array('application.models.*',
+			'application.components.*',
+			'application.modules.users.models.*',
+			'application.modules.users.components.*'),
 
-'import'=>array(     'application.models.*',     'application.components.*',     'application.modules.users.models.*',     'application.modules.users.components.*'  ),
- 
-'modules'=>array(        ‘users’=>array()	
- ),
+	'modules'=>array(‘users’=>array()),
 
 
 
-## SQL Command For Create tables
+## SQL Command For Creating tables
 
 CREATE TABLE `tbl_pre_user_registration` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
