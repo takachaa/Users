@@ -60,7 +60,7 @@ return array(
 );
 ```
 
-## SQL Command For Creating tables ##
+## SQL Command For Creating tables 
 You can use these SQL to create tables for using this extension.
 if you need modification, Please use these SQL on base depends on your project.
 ```
