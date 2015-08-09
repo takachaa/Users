@@ -25,7 +25,7 @@ NOTICE: It does not meet Version 2 of Yii.
 ## Installation
 Please install according to the following procedure.
 
-	•	Extract the release file under protected/modules of your project
+	•	Extract the release file(users) under protected/modules of your project
 	•	Change your config main:
 
 ```
