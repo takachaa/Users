@@ -18,6 +18,10 @@ This extension has following features.
 	•	Change Password.
 	•	Change Email (send recovery key to user email)
 
+## Requirements ## 
+Yii 1.1 or above 
+NOTICE: It does not meet Version 2 of Yii.
+
 ## Installation ##
 Please install according to the following procedure.
 
