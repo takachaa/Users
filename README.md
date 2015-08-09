@@ -5,6 +5,7 @@
 This extension is inspired by the yii-user module and It provides a registration and login form that requires users to enter email and password. if you need an email and password to login form, you can use it.
 
 ## Features ##
+This extension has following features.
 
 	•	Login from Email
 	•	Logout 
@@ -18,6 +19,7 @@ This extension is inspired by the yii-user module and It provides a registration
 	•	Change Email (send recovery key to user email)
 
 ## Installation ##
+Please install according to the following procedure.
 
 	•	Extract the release file under protected/modules of your project
 	•	Change your config main:
