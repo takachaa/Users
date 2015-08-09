@@ -31,7 +31,6 @@ Please install according to the following procedure.
 ```
 return array(
     #...
-    // autoloading model and component classes
     'import'=>array(
         'application.models.*',
         'application.components.*',
@@ -45,7 +44,6 @@ return array(
         #...
     ),
     #...
-    // application components
     'components'=>array(
     #...
         'db'=>array(
