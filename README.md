@@ -1,6 +1,6 @@
 # Users Extension
 
-## Yii PHP Framework extension for registration and login.
+## Yii PHP Framework extension for registration and login
 
 This extension is inspired by the yii-user module and It provides a registration and login form that requires users to enter email and password. if you need an email and password to login form, you can use it.
 
