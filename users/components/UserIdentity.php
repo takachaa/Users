@@ -10,22 +10,17 @@ class UserIdentity extends CUserIdentity
     private $_id;
     const ERROR_EMAIL_INVALID=3;
     public $email;
-    /**
-     * Authenticates a user.
-     * The example implementation makes sure if the username and password
-     * are both 'demo'.
-     * In practical applications, this should be changed to authenticate
-     * against some persistent user identity storage (e.g. database).
-     * @return boolean whether authentication succeeds.
-     */
-
+    
     public function __construct($email,$password)
     {
         $this->email=$email;
         $this->password=$password;
     }
 
-
+    /**
+     * This function is for autheticating email.
+     * @return boolean If you have errors, it return false.
+     */
     public function authenticate()
     {
 
