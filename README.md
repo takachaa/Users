@@ -19,21 +19,44 @@ This extension is inspired by the yii-user module and It provides a registration
 
 ## Installation ##
 
-	•	Extract the release file under protected of your project
+	•	Extract the release file under protected/modules of your project
 	•	Change your config main:
 
 ```
-		'import'=>array('application.models.*',
-				'application.components.*',
-				'application.modules.users.models.*',
-				'application.modules.users.components.*'),
-
-		'modules'=>array(‘users’=>array()),
+return array(
+    #...
+    // autoloading model and component classes
+    'import'=>array(
+        'application.models.*',
+        'application.components.*',
+        'application.modules.users.models.*',
+        'application.modules.users.components.*',
+    ),
+    #...
+    'modules'=>array(
+        #...
+        'users'=>array(),
+        #...
+    ),
+    #...
+    // application components
+    'components'=>array(
+    #...
+        'db'=>array(
+        #...
+            'tablePrefix' => 'tbl_',
+        #...
+        ),
+        #...
+    #...
+    ),
+    #...
+);
 ```
 
-
 ## SQL Command For Creating tables ##
-
+You can use these SQL to create tables for using this extension.
+if you need modification, Please use these SQL on base depends on your project.
 ```
 CREATE TABLE `tbl_pre_user_registration` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
