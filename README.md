@@ -72,7 +72,7 @@ CREATE TABLE `tbl_pre_user_registration` (
   `user_id` int(11) NOT NULL,
   `update_time` datetime NOT NULL ON UPDATE CURRENT_TIMESTAMP,
  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8; 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 
 CREATE TABLE IF NOT EXISTS `tbl_user` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -85,5 +85,5 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
   `recovery_key` varchar(255) NOT NULL,
   `recovery_time` datetime NOT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
