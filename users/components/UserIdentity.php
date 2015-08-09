@@ -18,7 +18,7 @@ class UserIdentity extends CUserIdentity
     }
 
     /**
-     * This function is for autheticating email.
+     * This function is for authenticating email.
      * @return boolean If you have errors, it return false.
      */
     public function authenticate()
